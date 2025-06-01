@@ -19,6 +19,7 @@
 .config
 .wget-hsts
 .local
+.gitconfig
 storage.tar.gz
 storage
 generate_jwt.rb
