@@ -1,0 +1,31 @@
+# Abaikan data sensitif seperti
+.
+..
+.private.pem
+.device_id.json
+.git
+.gnupg
+.gnupg.tar.gz
+.termux
+.bashrc
+.bash_history
+.private.pem
+.cache
+.ssh.tar.gz
+.ssh
+.lesshst
+.backup_home.sh
+.config.tar.gz
+.config
+.wget-hsts
+.local
+storage.tar.gz
+storage
+generate_jwt.rb
+device_id.txt
+cek_device_id.py
+
+# Generated Makefile
+# (meta build system like autotools,
+# can automatically generate from config.status script
+# (which is called by configure script))
