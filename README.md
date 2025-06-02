@@ -6,7 +6,7 @@
 📁storage
 📄── Auth_config
 📄── device_id.txt
-📁── Belajar-enkripsi-main
+📁── Belajar-enkripsi
 │   📜── LICENSE
 │   📄── README.md
 │   🔒── SECURITY.md
