@@ -31,6 +31,15 @@ home_backup_*
 
 # Ignore local scripts or config not untuk repo
 backup_home.sh
+movies/
+music/
+pictures/
+downloads/
+shared/
+dcim/
+file
+*.tar.gz
+*.zip
 
 # Ignore system or Termux/home files (tidak perlu, kecuali benar-benar ada di repo project)
 # Backup dan enkripsi
