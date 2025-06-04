@@ -24,13 +24,6 @@ home_backup_*
 *.bak
 *.zip
 *.gz
-
-# Ignore VSCode/Jetbrains/other IDE configs (jika pakai)
-.vscode/
-.idea/
-
-# Ignore local scripts or config not untuk repo
-backup_home.sh
 movies/
 music/
 pictures/
@@ -38,6 +31,12 @@ downloads/
 shared/
 dcim/
 file
+
+# Ignore VSCode/Jetbrains/other IDE configs (jika pakai)
+.vscode/
+.idea/
+
+# Ignore local scripts or config not untuk repo
 *.tar.gz
 *.zip
 
