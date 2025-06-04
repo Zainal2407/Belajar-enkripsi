@@ -1,0 +1,41 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Go build artifacts
+*.exe
+*.out
+*.test
+go/bin/
+go/pkg/
+
+# Ignore secrets and configs
+*.pem
+*.json
+*.tar.gz
+*.gpg
+device_id.txt
+device_id.json
+
+# Ignore archive and backup
+*.tar.gz
+*.bak
+*.zip
+*.gz
+
+# Ignore VSCode/Jetbrains/other IDE configs (jika pakai)
+.vscode/
+.idea/
+
+# Ignore local scripts or config not untuk repo
+backup_home.sh
+
+# Ignore system or Termux/home files (tidak perlu, kecuali benar-benar ada di repo project)
+# Backup dan enkripsi
+tar czf storage.tar.gz storage/
+gpg --output storage.tar.gz.gpg --symmetric --cipher-algo AES256 storage.tar.gz
+
+# Hapus file aslinya jika perlu
+rm storage.tar.gz
+
+# Upload storage.tar.gz.gpg ke repo atau cloud
