@@ -19,6 +19,8 @@ device_id.json
 
 # Ignore archive and backup
 *.tar.gz
+home_backup_*
+*.tar.gz
 *.bak
 *.zip
 *.gz
