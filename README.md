@@ -29,26 +29,33 @@
 │   ├──📄 .bashrc
 │   ├──📄 .gitignore
 │   └──📂 Belajar-enkripsi/
-│       ├── .git/
+│       ├──📂 .git/
 │       ├──📜 README.md
 │       ├──📜 LICENSE
 │       ├──🔒 SECURITY.md
 │       ├──📄 .gitignore
 │       ├──📂 proyek/
-│       │   ├──📂 .git/
-│       │   ├──📂 go
-│       │   ├──📄 config.go
-│       │   ├──📂 config/
-│       │   │     ├── ...
-│       │   ├──📄 random_joke_generator.py
-│       │   ├──📄 config_test.go
-│       │   ├──📂 .github/
-│       │   └──📄 Auth_config/
-│       └── ...
+├             ├──📂 config/
+├             ├──📄 auth_config_test.go
+│             ├──📄 config_test.go
+│             ├──📄 migration/
+│             ├──📄 config.go
+│             ├──📄 migrate_test.go
+│             └──📄 stub.go
+│             ├──📂 go/               
+│                └──📂 pkg/  
+│                   └──📂 mod/
+│                      ├──📂 cache/
+├                      ├──📂 github.com/
+│                      ├──📂 golang.org/
+│                      └──📂 gopkg.in/
+│ 
+│
 
 ```
 
 *Dan berikut adalah isi `README.md`:*
+
 *Direktori Cabang master*
 
 *Deskripsi*
